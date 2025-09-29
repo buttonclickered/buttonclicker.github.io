@@ -1,0 +1,27 @@
+
+<html><head>
+  <link rel="stylesheet" href="style.css">
+  <title>Button Clicker</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <div id="header">0</div>
+  <br> <br>
+  <button id="clickme" onclick="Add()">Click me</button>
+  <div id="upgrade-container">
+    <button class="upgrade-btn" id="onepsec" onclick="addsec(1,10)">+1 Per Second $10</button>
+    <button class="upgrade-btn" id="oneclick" onclick="addclick(1,25)">+1 Per Click $25</button>
+    <button class="upgrade-btn" id="twoclick" onclick="addclick(2,45)">+2 Per Click $45</button>
+    <button class="upgrade-btn" id="twopsec" onclick="addsec(2,50)"> +2 Per Second $50</button>
+    <button class="upgrade-btn" id="threeclick" onclick="addclick(3,120)"> +3 Per Click $120</button>
+  </div>
+<div id="APS">Money Per Second: 0</div>
+<div id="CPS">Money Per Click: 1</div>
+<div id="upgrades">Upgrades:</div>
+<button id="rollbutton" onclick="roll()">Double Or Nothing</button>
+<div  placeholder="Enter bet amount..." contenteditable="true" id="amount"></div>
+  <div id="notification" style="display:none;"></div>
+  <script src="script.js"></script>
+
+
+</body></html>
