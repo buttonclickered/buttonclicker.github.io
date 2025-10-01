@@ -17,7 +17,7 @@ function saveGame() {
   localStorage.setItem('persec', persec);
   localStorage.setItem('perclick', perclick);
 }
-
+ const infobox = document.getElementById('infobox');
 function updateHeader() {
   headerDiv.textContent = idk;
   saveGame();
@@ -102,8 +102,22 @@ function roll() {
   updateHeader();
   saveGame();
 }
-
-
+let opened = 0;
+function info() {
+  if (opened === 0) {
+   alert("If you want to play the knockoff version, click the button again.");
+    opened = 1;
+  } else {
+    window.location.href = "https://sahebsinghdhatt-eng.github.io/school/";
+    opened = 0;
+  }
+}
+function closeinfo() {
+  const infobox = document.getElementById('infobox');
+  infobox.style.display = 'none';
+  infobox.textContent = "";
+  infobox.style.backgroundColor = "transparent";
+}
 
 // On first load, update header to show loaded values
 updateHeader();
