@@ -1,2 +1,2 @@
 # buttonclicker.github.io
-Click the Button :D.
+This is a simple online game where you can click a button to get a form of currency. With the currency, you can buy upgrades like: "+1 click per click" or "+2 click per second" which can automate or help you on your journey to get as many clicks as possible! One of the newest feature is that there is a "Double or nothing" where you can enter a amount of clicks and there is a 50/50 to get twice the amount of clicks or to lose them! Now that you know how to play, it's time to start clicking! Good luck on your journey!
